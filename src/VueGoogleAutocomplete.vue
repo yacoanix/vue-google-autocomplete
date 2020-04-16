@@ -33,15 +33,15 @@
         'administrative_area_level_1', 'administrative_area_level_2'];
 
     /*
-      By default, we're only including basic place data because requesting these 
+      By default, we're only including basic place data because requesting these
       fields place data is not additionally charged by Google. Please refer to:
 
       https://developers.google.com/maps/billing/understanding-cost-of-use#basic-data
     */
-    const BASIC_DATA_FIELDS = ['address_components', 'adr_address', 'alt_id', 
-        'formatted_address', 'geometry', 'icon', 'id', 'name', 
-        'permanently_closed', 'photo', 'place_id', 'scope', 'type', 'url', 
-        'utc_offset', 'vicinity'];
+    const BASIC_DATA_FIELDS = ['address_components', 'adr_address', 'alt_id',
+        'formatted_address', 'geometry', 'icon', 'id', 'name',
+        'permanently_closed', 'photo', 'place_id', 'scope', 'type', 'url',
+        'utc_offset_minutes', 'vicinity'];
 
     export default {
         name: 'VueGoogleAutocomplete',
